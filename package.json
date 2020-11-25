@@ -1,0 +1,37 @@
+{
+  "name": "sport_team_logo_grab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- src/index.ts",
+    "start": "npm run build:live",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samualpay/sport_team_logo_grab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samualpay/sport_team_logo_grab/issues"
+  },
+  "homepage": "https://github.com/samualpay/sport_team_logo_grab#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.9",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.22",
+    "@types/puppeteer": "^5.4.0",
+    "axios": "^0.21.0",
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^5.5.0"
+  }
+}
