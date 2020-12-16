@@ -68,5 +68,5 @@ async function mainNBA() {
   await new Downloader(nbaTeams.images, nbaTeams.folder).run();
   console.log("end");
 }
-// main()
-mainNBA();
+main();
+// mainNBA();

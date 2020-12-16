@@ -7,7 +7,9 @@
     "build": "tsc",
     "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- src/index.ts",
     "start": "npm run build:live",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "country": "node ./node_modules/.bin/ts-node -- src/country.ts",
+    "t2s-country": "node ./node_modules/.bin/ts-node -- src/t2sCountry.ts"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,7 @@
     "@types/puppeteer": "^5.4.0",
     "axios": "^0.21.0",
     "cheerio": "^1.0.0-rc.3",
+    "opencc": "^1.1.1",
     "puppeteer": "^5.5.0"
   }
 }
